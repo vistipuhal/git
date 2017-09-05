@@ -1,0 +1,276 @@
+body
+{
+	background:white;
+}
+
+.header .container_12
+{
+	position:fixed;
+	top:0;
+	font-family:sans-serif;
+	margin:auto;
+	width:100%;
+	background:black;
+}
+
+.content
+{
+	margin-top:150px;
+}
+
+.header .container_12 .grid_4 a img
+{	
+	float:left;
+}
+
+.header .container_12 .grid_8
+{
+	float:right;
+	text-align:left;
+	margin-top:25px;
+	margin-right:0px;
+}
+
+.header .container_12 .grid_8 ul
+{
+	list-style:none;
+	font-size:21px;
+
+}
+
+.header .container_12 .grid_8 ul li
+{
+	display:inline;	
+}
+
+.header .container_12 .grid_8 ul li a
+{
+	text-decoration:none;
+	padding:1px;
+}
+
+.header .container_12 .grid_8 ul li a:hover
+{
+	text-decoration:underline;
+}
+
+
+article#article .container_12 .grid_4 .grid_4
+{
+	box-sizing:border-box;
+	height:150px;
+}
+
+article#article .container_12 .grid_4 .grid_4 .Column1 a img
+{
+	margin-top:18px;
+	margin-left:10px;
+	margin-right:8px;
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+article#article .container_12 .grid_4 .grid_4 .Column1 .text1
+{
+	overflow:auto;
+	box-sizing:border-box;
+	float:right;
+	width:180px;
+	
+}
+
+article#article .container_12 .grid_4 .grid_4 .Column1 .text1 p a
+{
+	text-decoration:none;
+	color:black;
+	font-style:italic;
+}
+
+article#article .container_12 .grid_4 .grid_4 .Column1 .text1 p a:hover, article#article .container_12 .grid_4 .grid_4 .text2 p a:hover
+{
+	text-decoration:none;
+	color:blue;
+	font-style:italic;
+}
+
+article#article .container_12 .grid_4 .grid_4 .text2
+{
+	box-sizing:border-box;
+	margin-top:5px;
+	float:left;
+	width:280px;
+	height:180px;		
+}
+
+article#article .container_12 .grid_4 .grid_4 .text2 p a
+{
+	text-decoration:none;
+	color:black;
+	font-style:italic;
+}
+
+article#article .container_12 .grid_4 .grid_4 .continue
+{
+	float:right;
+	text-decoration:none;
+	color:black;
+}
+
+article#article .container_12 .grid_4 .grid_4 .continue:hover
+{
+	float:right;
+	text-decoration:none;
+	color:blue;
+}
+
+article#article .container_12 .grid_4 .grid_4 .continue:after
+{
+	content:')';
+}
+
+article#article .container_12 .grid_4 .grid_4 .continue:before
+{
+	content:'(';
+}
+
+
+
+article#content .container_12 .grid_12 a img
+{
+	width:1000px;
+	height:400px;
+	float:left;
+	background:red;
+	margin-right:5px;
+}
+
+
+article#content .container_12 .grid_12 p
+{	width:585px;
+	margin-top:0;
+	margin-left:0;
+	float:right;
+	box-sizing:border-box;
+}
+
+article#footer .container_12 .grid_5
+{
+	width:370px;
+	padding:6px;
+	float:left;
+}
+
+article#footer .container_12 .grid_5 .grid_5 h4 
+{
+	text-align:center;	
+	margin-top:0;
+}
+
+
+article#footer .container_12 .grid_5 .grid_5 button.button
+{
+	float:right;
+}
+
+article#footer .container_12 .grid_7
+{
+	margin-left:0;
+	float:right;
+}
+
+article#footer .container_12 .grid_7 .grid_7
+{
+	width:410px;
+	float:right;
+	color:black;
+}
+
+article#footer .container_12 .grid_7 .grid_7 ul
+{	
+	list-style:none;
+}
+
+article#footer .container_12 .grid_7 .grid_7 ul li
+{	
+	display:inline;
+}
+
+article#footer .container_12 .grid_7 .grid_7 ul li a
+{
+	text-decoration:none;
+	padding:5px;
+	color:black;
+	font-size:16px;
+}
+
+article#footer .container_12 .grid_7 .grid_7 ul li a img 
+{
+	width:50px;
+	height:50px;
+}
+
+article#footer .container_12 .grid_7 .grid_7 article#final ul
+{
+	list-style:none;
+}
+
+article#footer .container_12 .grid_7 .grid_7 article#final ul li
+{
+	text-decoration:none;
+	font-size:19px;
+}
+
+article#footer .container_12 .grid_7 .grid_7 article#final ul li img
+{
+	width:50px;
+	height:50px;
+}
+
+article#footer .container_12 .grid_7 .grid_7 article#final ul li img.phone
+{
+	width:40px;
+	height:40px;
+	margin-right:5px;
+}
+
+.header .container_12 .nav .grid_8 ul li .dropdown button.dropbtn {
+    background-color: black;
+    color: blue;
+    padding:4px;
+    font-size:25px;
+    border: none;
+    cursor: pointer;
+}
+
+.header .container_12 .nav .grid_8 ul li .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.header .container_12 .nav .grid_8 ul li .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width:160px;
+}
+
+
+.header .container_12 .nav .grid_8 ul li .dropdown .dropdown-content a {
+    color: blue;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.header .container_12 .nav .grid_8 ul li .dropdown-content a:hover {
+	background-color: white;
+}
+
+.header .container_12 .nav .grid_8 ul li .dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.header .container_12 .nav .grid_8 ul li .dropdown:hover .dropbtn {
+    background-color:white;
+}
